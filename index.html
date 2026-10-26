@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranch Christmas Rentals | Holiday Décor, Tables & Chairs</title>
+  <meta name="description" content="Rent heirloom ranch Christmas décor, rustic accents, tables, and chairs for your holiday party, church event, or gathering.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="logo">🎄 <span>Ranch Christmas Rentals</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#rentals">Rentals</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">Our Story</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-small">Reserve</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="snow" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">Family-owned · Straight from the ranch</p>
+      <h1>Make your holiday gathering feel like home.</h1>
+      <p class="lead">Rent heirloom Christmas décor, rustic ranch pieces, and party tables &amp; chairs —
+        delivered, set up, and picked up so you can enjoy the season.</p>
+      <div class="hero-buttons">
+        <a href="#rentals" class="btn">Browse Rentals</a>
+        <a href="#contact" class="btn btn-outline">Check My Date</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PERFECT FOR ============ -->
+  <section class="occasions">
+    <div class="container occasion-list">
+      <div>🏠 Holiday Parties</div>
+      <div>⛪ Church Events</div>
+      <div>🏢 Office Parties</div>
+      <div>💍 Winter Weddings</div>
+      <div>📸 Family Photos</div>
+      <div>🎅 School Programs</div>
+    </div>
+  </section>
+
+  <!-- ============ RENTALS ============ -->
+  <section class="section" id="rentals">
+    <div class="container">
+      <h2>Our Rentals</h2>
+      <p class="section-sub">Many of these pieces decorated our family ranch for years. Now they can make your event special too.</p>
+
+      <div class="filters" role="tablist"></div>
+      <div class="grid" id="catalog"></div>
+
+      <p class="note">Prices are per rental and include a 3-day rental window. Don't see what you need? <a href="#contact">Just ask</a> — new items are added all the time.</p>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section alt" id="how">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Pick Your Pieces</h3>
+          <p>Browse the rentals and jot down what you love — or tell us your vision and we'll help put it together.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Reserve Your Date</h3>
+          <p>Send a request below. We'll confirm availability and your total, usually within a day.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>We Deliver &amp; Set Up</h3>
+          <p>Pick up yourself or have us deliver and decorate. When the party's over, we take it all away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PACKAGES ============ -->
+  <section class="section" id="packages">
+    <div class="container">
+      <h2>Holiday Packages</h2>
+      <p class="section-sub">Easy bundles for the most common gatherings.</p>
+      <div class="packages">
+        <div class="package">
+          <h3>Cozy Home Party</h3>
+          <p class="price">$125</p>
+          <ul>
+            <li>Decorated Christmas tree</li>
+            <li>2 wreaths &amp; garland bundle</li>
+            <li>1 centerpiece kit</li>
+            <li>Delivery &amp; setup</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-package="Cozy Home Party">Request</a>
+        </div>
+        <div class="package featured">
+          <span class="badge">Most Popular</span>
+          <h3>Ranch Christmas</h3>
+          <p class="price">$250</p>
+          <ul>
+            <li>Decorated tree &amp; nativity</li>
+            <li>Wagon wheel &amp; hay bale photo spot</li>
+            <li>6 lanterns &amp; 4 centerpiece kits</li>
+            <li>Tablecloths &amp; runners for 4 tables</li>
+            <li>Delivery, setup &amp; pickup</li>
+          </ul>
+          <a href="#contact" class="btn" data-package="Ranch Christmas">Request</a>
+        </div>
+        <div class="package">
+          <h3>Big Celebration</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Church, office, or wedding size</li>
+            <li>Tables &amp; chairs (coming soon)</li>
+            <li>Full décor design</li>
+            <li>We handle everything</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-package="Big Celebration (custom quote)">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section alt" id="about">
+    <div class="container about">
+      <div class="about-img" aria-hidden="true">🐄🎄🏡</div>
+      <div>
+        <h2>Our Story</h2>
+        <p>For years, Grandma decorated the ranch every Christmas — trees in every room, wreaths on the barn,
+          and a nativity that the whole family gathered around.</p>
+        <p>Rather than let those treasures sit in storage, we decided to share them. Ranch Christmas Rentals
+          brings that same warm, homemade holiday feeling to your party, church, or celebration.</p>
+        <p>We're a small, family-run business, so you'll always talk to a real person who cares about making
+          your event beautiful.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <h2>Questions</h2>
+      <details>
+        <summary>How far ahead should I book?</summary>
+        <p>December fills up fast! We recommend booking 2–4 weeks ahead, but always ask — last-minute dates sometimes open up.</p>
+      </details>
+      <details>
+        <summary>Do you deliver?</summary>
+        <p>Yes. Delivery and setup are available in our local area. You're also welcome to pick up and return items yourself.</p>
+      </details>
+      <details>
+        <summary>Is there a deposit?</summary>
+        <p>We ask for a small deposit to hold your date. It's refunded when everything comes back in good shape.</p>
+      </details>
+      <details>
+        <summary>What if something breaks?</summary>
+        <p>Accidents happen — just let us know. Minor wear is no problem; lost or broken items may be charged at replacement cost.</p>
+      </details>
+      <details>
+        <summary>Can I rent things outside the Christmas season?</summary>
+        <p>Absolutely. Our rustic pieces, tables, chairs, and linens are available year-round for any event.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div>
+        <h2>Reserve Your Date</h2>
+        <p>Tell us about your event and what you'd like to rent. We'll get back to you with availability and a total.</p>
+        <ul class="contact-info">
+          <li>📞 <a href="tel:+15555555555">(555) 555-5555</a></li>
+          <li>✉️ <a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li>📍 Serving our local area &amp; surrounding towns</li>
+        </ul>
+      </div>
+      <form id="request-form" class="form">
+        <label>Your Name <input type="text" name="name" required></label>
+        <label>Phone or Email <input type="text" name="contact" required></label>
+        <div class="form-row">
+          <label>Event Date <input type="date" name="date" required></label>
+          <label>Guests <input type="number" name="guests" min="1"></label>
+        </div>
+        <label>Event Type
+          <select name="type">
+            <option>Holiday Party</option>
+            <option>Church Event</option>
+            <option>Office Party</option>
+            <option>Wedding</option>
+            <option>Photo Shoot</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>What would you like to rent?
+          <textarea name="items" rows="4" placeholder="e.g. 2 trees, 6 lanterns, the Ranch Christmas package…"></textarea>
+        </label>
+        <label class="check"><input type="checkbox" name="delivery" checked> I'd like delivery &amp; setup</label>
+        <button type="submit" class="btn">Send Request</button>
+        <p class="form-note">This opens your email app with your request filled in.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>🎄 Ranch Christmas Rentals · Family-owned &amp; operated</p>
+      <p class="small">&copy; <span id="year"></span> Ranch Christmas Rentals</p>
+    </div>
+  </footer>
+
+  <script src="items.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
